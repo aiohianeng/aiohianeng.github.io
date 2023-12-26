@@ -1,4 +1,4 @@
-var posts=["学习/mybatis代码生成器ui","学习/docker总结","学习/Centos7安装Docker"];function toRandomPost(){
+var posts=["学习/servlet集成mybatis-plus","学习/mybatis代码生成器ui","学习/docker总结","学习/Centos7安装Docker"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
